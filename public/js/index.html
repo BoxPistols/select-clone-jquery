@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello</h1>
-    <script src="./bundle.js"></script>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>Hello</h1>
+        <div class="container">
+            <div class="row">
+
+                <form action="">
+
+                    <div class="fx">
+                        <div class="column column-50">
+                            <select name="ddlFruits" id="ddlFruits">
+                                <option value="0">Please Select</option>
+                                <option value="1">Mango</option>
+                                <option value="2">Apple</option>
+                                <option value="3">Banana</option>
+                                <option value="4">Orange</option>
+                            </select>
+                        </div>
+
+                        <div class="column column-50">
+                            <select name="ddlFruits2" id="ddlFruits2">
+                                <option value="0">Please Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="">
+
+                            <div id="container" class="fx column column-50">
+                                <div class="selected"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="button" id="btnClone" value="Clone" />
+                </form>
+
+            </div>
+        </div>
+        <!-- partial -->
+        <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+        <script src="./bundle.js"></script>
+    </body>
+
 </html>

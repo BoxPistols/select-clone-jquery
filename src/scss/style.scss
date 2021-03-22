@@ -1,0 +1,19 @@
+body {
+	max-width: 400px;
+	margin: auto;
+}
+.fx {
+	display: flex;
+	> * {
+		margin: 2px 4px;
+	}
+}
+
+// #container > select {
+// display: block;
+// background-color: #fff;
+// }
+
+#btnClone {
+	float: right;
+}
