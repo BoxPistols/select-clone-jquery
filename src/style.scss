@@ -1,0 +1,10 @@
+.fx   {
+  display: flex;
+  > * {
+    margin: 2px 4px;
+  }
+}
+
+#btnClone {
+  float: right;
+}
